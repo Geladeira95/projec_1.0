@@ -16,7 +16,7 @@
   main {
     position: relative;
     width: 100%;
-    height:90vh;
+    height:100vh;
     box-shadow: 0 3px 10px rgba(0,0,0,0.3);
   }
   /* configuração para todosz o cartão*/
@@ -221,8 +221,6 @@
     }
   }
   
-
-
   footer{
   
    display: flex;
@@ -246,7 +244,15 @@
   height: 5px;
 }
 
-.block{
-  display: flex;
-  width: 100vh;
+.main1{
+  height: 60%;
+  padding-bottom: 3%;
+}
+
+.block_up{
+  display: flex; 
+  height: 50%; 
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
